@@ -42,3 +42,15 @@ p numbers[2]
 # This code calls the last element within the numbers array, note 
 p numbers[9]
 # should print: 10
+
+# NEW ARRAY METHOD
+
+# The ruby .slice(<index>) method will remove the element at the index position indicated in parenthesis from the array.
+# Example:
+
+statement = ["I","love","using","ruby"]
+
+# This code will remove the index positioned element from the array, then print the new array.
+statement.slice(2)
+p statement
+# Should remove "using" from the array and print: ["I","love","ruby"]
