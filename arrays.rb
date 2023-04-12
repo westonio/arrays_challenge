@@ -22,3 +22,23 @@ p floats
 booleans.unshift(true)
 p booleans
 # Should print: [true,false,true,true,false,true]
+
+#INDEX POSITIONS   
+
+# An elements position within the array is called it's "index position".
+# The counting begins at 0, and I can print an element by using the variable[index-position] format.
+# Please see the example below:
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+# This code calls the first element within the numbers array
+p numbers[0]
+# Should print: 1
+
+# This code calls the third element within the numbers array
+p numbers[2]
+# Should print: 3
+
+# This code calls the last element within the numbers array, note 
+p numbers[9]
+# should print: 10
